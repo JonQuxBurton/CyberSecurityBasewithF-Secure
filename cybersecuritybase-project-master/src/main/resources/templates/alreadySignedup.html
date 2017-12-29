@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Already Signed up</title>
+    </head>
+    <body>
+
+        <h1>Already Signed up</h1>
+
+        <p>You have already signed up to the event</p>
+        
+        <p><a href="/showSearch" >Search for a name</a></p>
+        <p><a href="messageBoard.html">Go to the message board for this event</a></p>
+        <p><a href="bookHotel.html?stars=1">Book a hotel</a></p>
+        
+        <form action="#" th:action="@{/cancel}" method="GET">
+            <p><label>Cancel my Sign up</label>: <input type="submit" value="Cancel" /></p>
+        </form>
+        
+    </body>
+</html>
