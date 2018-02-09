@@ -34,15 +34,15 @@ The output of the previous meeting should be a Data Flow Diagram showing the flo
  
 Step 3. Apply the STRIDE-per-element technique to the DFD.
 
-In this approach, the STIDE checklist is applied to each element of the DFD, which has all the threats identified attached to it.
+In this approach, the STRIDE checklist is applied to each element of the DFD, and each element has all the threats identified attached to it.
 Some rules of thumb [4] can be applied here to help generate ideas such as:
 If data hasn't crossed a trust boundary it's low risk.
 If the code runs with elevated privileges it is a higher risk.
 If the code can run scripts or other code it is much higher risk.
 
-This produce a fairly long list of the potential threats to the system. In the example here [5] a relatively small application had 33 different ways in which it could be attacked.
+This can produce a fairly long list of the potential threats to the system. In the example of a relatively small application for playing sounds a 33 different ways in which it could be attacked. [5]
 
-The DFD may have also made some threats very apparent, for example if XML is being used across a trust boundary then there are a number of well known threats (such as a Denial of Service the Billion laughs attack[6])
+The DFD may have also made some threats very apparent, for example if XML is being used across a trust boundary then there are a number of well known threats (such as a Denial of Service the Billion laughs attack [6]).
 
 Step 4. Analyze all the identified threats and devise mitigations.
 Some of the threats identified may be irrelevant or duplicated and so can be ignored, but it is still good that they have been recorded and evaluated. For the rest the team can now move on from threat modeling and onto mitigating them. 
@@ -55,8 +55,7 @@ References
 [1] - Threat Modeling, once again https://blogs.msdn.microsoft.com/larryosterman/2007/08/30/threat-modeling-once-again/
 [2] - Øredev 2017 - Maaret Pyhäjärvi - An Exploratory Tester’s lessons on Security Threat Modeling https://vimeo.com/242236526
 [3] - Gitrob http://michenriksen.com/blog/gitrob-putting-the-open-source-in-osint/
-[4] - Rules of thumb - https://blogs.msdn.microsoft.com/larryosterman/2007/08/30/threat-modeling-once-again/] 
-
-[5] - PlaySound API - [From https://blogs.msdn.microsoft.com/larryosterman/2007/08/30/threat-modeling-once-again/]
+[4] - Threat Modeling Again, Threat Modeling Rules of Thumb - https://blogs.msdn.microsoft.com/larryosterman/2007/09/21/threat-modeling-again-threat-modeling-rules-of-thumb/
+[5] - Threat Modeling Again, Threat Modeling PlaySound - [From https://blogs.msdn.microsoft.com/larryosterman/2007/09/11/threat-modeling-again-threat-modeling-playsound/]
 [6] - Billion laughs attack https://en.wikipedia.org/wiki/Billion_laughs_attack 
 and "A Hybrid Approach to Threat Modelling" - Sriram Krishnan https://blogs.sans.org/appsecstreetfighter/files/2017/03/A-Hybrid-Approach-to-Threat-Modelling.pdf
