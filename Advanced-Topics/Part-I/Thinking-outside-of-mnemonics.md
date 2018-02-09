@@ -50,7 +50,7 @@ Some of the threats identified may be irrelevant or duplicated and so can be ign
 
 The above process and it's finding should be documented for future use, as the threats faced by a system generally stay static. So this document itself would be a valuable source of threat ideas in the future.
 
-
+---
 
 References
 [1] - Threat Modeling, once again https://blogs.msdn.microsoft.com/larryosterman/2007/08/30/threat-modeling-once-again/
