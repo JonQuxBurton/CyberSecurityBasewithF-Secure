@@ -24,9 +24,9 @@ Reading through the code and the unit tests.
 Reading the code review comments.
 Reading the documentation of both the code and the design. For example if there are claims in the documentation like that HTTPS is used - has this been correctly implemented?[2]
 
-Libraries of vulnerabilities could be consulted by the team, such as OWASP, Common Weakness and Enumeration(CWE), and Common Attack Pattern Enumeration and Classification (CAPEC) though here the team may end up being overwhelmed by the volume of information.
+Libraries of vulnerabilities could be consulted by the team, such as OWASP, Common Weakness and Enumeration (CWE) and Common Attack Pattern Enumeration and Classification (CAPEC), though here the team may end up being overwhelmed by the volume of information.
 
-It is also worth considering non technical threats such as Social Engineering, Bribery, Theft. Another technique which hackers use is Open Source Intelligence (OSINT) so also consider this such as any Github accounts for the company and developers (which could be scanned with Gitrob[3]).
+It is also worth considering non technical threats such as Social Engineering, Bribery or Theft. Another technique which hackers use is Open Source Intelligence (OSINT) so also consider this, such as any Github accounts for the company and developers (which could be scanned with Gitrob [3]).
 
 Step 2. Produce a Data Flow Diagram (DFD).
 
@@ -40,11 +40,12 @@ If data hasn't crossed a trust boundary it's low risk.
 If the code runs with elevated privileges it is a higher risk.
 If the code can run scripts or other code it is much higher risk.
 
-This can produce a fairly long list of the potential threats to the system. In the example of a relatively small application for playing sounds a 33 different ways in which it could be attacked. [5]
+This can produce a fairly long list of the potential threats to the system. In the example of a relatively small application for playing sounds, 33 different ways were found in which it could be attacked. [5]
 
-The DFD may have also made some threats very apparent, for example if XML is being used across a trust boundary then there are a number of well known threats (such as a Denial of Service the Billion laughs attack [6]).
+The DFD may have also made some threats very apparent, for example if XML is being used across a trust boundary then there are a number of well known threats (such as a Denial of Service using the Billion laughs attack [6]).
 
 Step 4. Analyze all the identified threats and devise mitigations.
+
 Some of the threats identified may be irrelevant or duplicated and so can be ignored, but it is still good that they have been recorded and evaluated. For the rest the team can now move on from threat modeling and onto mitigating them. 
 
 The above process and it's finding should be documented for future use, as the threats faced by a system generally stay static. So this document itself would be a valuable source of threat ideas in the future.
