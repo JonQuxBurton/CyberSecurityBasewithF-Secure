@@ -1,5 +1,6 @@
+Thinking outside of mnemonics
 
-A version of this essay with the correct formatting and references can be found here: https://github.com/JonQuxBurton/CyberSecurityBasewithF-Secure/edit/master/Advanced-Topics/Part-I/Thinking-outside-of-mnemonics.md
+A version of this essay with the correct formatting and references can be found here: https://github.com/JonQuxBurton/CyberSecurityBasewithF-Secure/blob/master/Advanced-Topics/Part-I/Thinking-outside-of-mnemonics.md
 
 To get ideas for threat modeling a system, I would suggest that a team take a structured approach consisting of the following steps.
 Step 1. Hold a brainstorming session.
