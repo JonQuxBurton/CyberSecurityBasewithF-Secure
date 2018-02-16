@@ -1,6 +1,6 @@
 # Gamifying threat-finding
 
-A version of this essay with the correct formatting and references can be found here: https://github.com/JonQuxBurton/CyberSecurityBasewithF-Secure/Advanced-Topics/Part-I/Gamifying-threat-finding.md
+A version of this essay with the correct formatting and references can be found here: hhttps://github.com/JonQuxBurton/CyberSecurityBasewithF-Secure/blob/master/Advanced-Topics/Part-I/Gamifying-threat-finding.md
 
 I think that gamified threat modeling can be a useful technique to employ. Looking at an example of gamified threat modeling, the Elevation of Privilege card (EoP) game made by Microsoft, works as follows. A set of cards is divided into security related "suits", with each card having a description of a threat. The first player plays a card from one of the suits and then tries to apply this threat to one of the elements of the systems Data Flow Diagram (DFD). The other players then take turns to each play a card from the same suit and the player with the highest card wins the round. Players score a point for each threat identified and an extra point for winning the round, giving it a mildly competitive edge. Another game Cornucopia by OWASP consists of the same game mechanics but with the suits being more relevant to web applications, such as Session management.
 
