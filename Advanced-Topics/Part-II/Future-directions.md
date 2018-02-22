@@ -36,15 +36,26 @@ An example of this is Watson from IBM [11]. This uses natural language processin
  References
  
  [1] IDS Evasion Techniques - https://en.wikipedia.org/wiki/Intrusion_detection_system#Evasion_techniques
+ 
  [2] Attacking Machine Learning with Adversarial Examples - https://blog.openai.com/adversarial-example-research/
+ 
  [3] TayBot -  https://en.wikipedia.org/wiki/Tay_(bot)
+ 
  [4] Evading Evading Machine Learning Malware Detection - https://www.blackhat.com/docs/us-17/thursday/us-17-Anderson-Bot-Vs-Bot-Evading-Machine-Learning-Malware-Detection-wp.pdf
+ 
  [5] F-Secure - https://www.f-secure.com/en/web/business_global/rapid-detection-service
+ 
  [6] AI2 - http://news.mit.edu/2016/ai-system-predicts-85-percent-cyber-attacks-using-input-human-experts-0418
+ 
  [7] https://www.lesserwrong.com/posts/shnSyzv4Jq3bhMNw5/alphago-zero-and-the-foom-debate
+ 
  [8] https://www.lesserwrong.com/posts/D3NspiH2nhKA6B2PE/what-evidence-is-alphago-zero-re-agi-complexity
+ 
  [9] Paul Allen: The Singularity Isn't Near - https://www.technologyreview.com/s/425733/paul-allen-the-singularity-isnt-near/
+ 
  [10] Dartmouth Workshop - https://en.wikipedia.org/wiki/Dartmouth_workshop
+ 
  [11] Watson - https://www.ibm.com/security/cognitive
+ 
  [12] How Quant Traders Use Sentiment To Get An Edge On The Market - 
 https://www.forbes.com/sites/kumesharoomoogan/2015/08/06/how-quant-traders-use-sentiment-to-get-an-edge-on-the-market/#56a3eb2d4b5d
