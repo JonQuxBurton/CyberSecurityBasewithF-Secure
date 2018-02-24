@@ -27,6 +27,7 @@ Smart TVs even have their own attack vector. Researchers have managed to hack th
 ---
 
 References
+
 [1] Samsung Smart TV Policy -  https://www.independent.co.uk/life-style/gadgets-and-tech/news/samsungs-new-smart-tv-policy-allows-company-to-listen-in-on-users-10033012.html
 
 [2] 1984 by George Orwell - https://en.wikipedia.org/wiki/Telescreen
