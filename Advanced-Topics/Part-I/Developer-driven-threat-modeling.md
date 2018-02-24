@@ -2,10 +2,10 @@
 
 A version of this essay with the correct formatting and references can be found here: https://github.com/JonQuxBurton/CyberSecurityBasewithF-Secure/blob/master/Advanced-Topics/Part-I/Developer-driven-threat-modeling.md
 
-We have looked at the use of STRIDE for threat modeling, but an alternative approach would be to use an Attack list. 
+We have looked at the use of STRIDE for threat modeling, but an alternative approach would be to use an Attack List. 
 
 Lets examine the advantages which Attack lists have over STRIDE.
-As the threat sin the Attack list describe actual attacks the approach seems less abstract than STRIDE. This also makes it feel more natural and intuitive, for example when building a web page it's easy to think of (and try) entering a SQL injection attack string into a form. And most developers will have tried this at some point,
+As the threats in an Attack List describe actual attacks, the approach seems less abstract than STRIDE. This also makes it feel more natural and intuitive, for example when building a web page it's easy to think of (and try) entering a SQL injection attack string into a form. Also most developers will have tried this at some point,
 In this way it takes less security knowledge to apply than STRIDE, which requires the developer to convert the category into a tangible attack.
 
 Another advantage is that an attack list can be tailored to suit the specifics of the company. It is obvious that if a company suffered a problem from a vulnerability then it should be on the Attack List and checked consistently from then on. You would also imagine that threats which don't seem to be a problem could be pruned from the list. Over time then the list will become a good fit.
