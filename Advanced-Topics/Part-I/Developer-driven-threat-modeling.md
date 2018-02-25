@@ -17,7 +17,7 @@ Now lets look at the disadvantages of Attack Lists.
 It could be argued that they are too specific, and that actually being abstract, like STRIDE, is better. Having the attacks specific in this way, can make it harder to think of different threats which are not on the attack list[1].
 
 The Attack List takes effort to create and to maintain. As above it will need to be shared and explained with other developers which also takes time. The famous OWASP
-top ten threats list recently been updated in 2017[2] for the first time since 2013. New threats have been added, and some removed, so we don't need to check for these anymore, right? (not necessarily)
+top ten threats list recently been updated in 2017[2] for the first time since 2013. New threats have been added, and some removed, so we don't need to check for these anymore, right?
 
 In the article EMC created an Attack List with 35 threats on it, but how do we know this is enough? AT the same time is it too many? That's a lot to scan through, and also too many to hold in memory, which would be more like seven plus or minus 2[3].
 
