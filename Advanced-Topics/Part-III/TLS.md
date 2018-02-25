@@ -2,10 +2,12 @@
 
 A version of this essay with the correct formatting and references can be found here: https://github.com/JonQuxBurton/CyberSecurityBasewithF-Secure/blob/master/Advanced-Topics/Part-III/TLS.md
 
-* What threats does TLS protect against? 
+What threats does TLS protect against?
+
 TLS allows two parties to communicate with privacy and data integrity. The messages they send are private, so they cannot be read by another party during transmission. Having data integrity means that the messages cannot be modified by another party during transmission. In additional a trusted Certificate Authority can be used so the parties that they are not communicating with an impostor and this prevents a Man-in-the Middle attack.
 
-* How does TLS protect against threats? 
+How does TLS protect against threats?
+
 Modern web browsers use TLS to communicate with servers and when doing so one can inspect the technical details of the connection. This is summarised as a string similar to this: "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384_256 bit keys,TLS 1.2"
 I will relate this string to how the different parts of TLS work.
 
