@@ -9,6 +9,7 @@ TLS allows two parties to communicate with privacy and data integrity. The messa
 How does TLS protect against threats?
 
 Modern web browsers use TLS to communicate with servers and when doing so one can inspect the technical details of the connection. This is summarised as a string similar to this: 
+
 "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384_256 bit keys,TLS 1.2"
 
 I will relate this string to how the different parts of TLS work.
