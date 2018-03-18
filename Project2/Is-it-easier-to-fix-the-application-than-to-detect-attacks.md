@@ -40,12 +40,18 @@ This caused Snort to log the following alert:
 So Snort has clearly detected the attack from the Web Application Attack rules.
 
 The second attack which triggered a Snort alert was against SNMP (Simple Network Management Protocol).
-This can be performed by using the following commands in the MetaSploit console:
+This can be performed by using the following commands in the Metasploit console:
+
 use auxiliary/scanner/snmp/snmp_enum
+
 set rhost 192.168.0.6
+
 set rport 8020 
+
 set lhost 192.168.0.4
+
 set lport 443
+
 exploit
 
 This triggered the Snort alerts:
